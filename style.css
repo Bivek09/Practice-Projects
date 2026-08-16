@@ -6,17 +6,18 @@
     
 
 .navbar{
-    height: 40px;
+    height: 3vw;
     width: 100vw;
     background-color: rgb(90, 3, 3);
     border-radius: 10px;
    padding-top: 10px;
-   text-decoration: none;
-   position:fixed;
+   
+  
 }
 a{
     
-    margin-right:180px;
+    margin-right:10vw;
+     text-decoration: none;
    
 
    
@@ -30,6 +31,9 @@ a{
     
    
     
+}
+#searchbar{
+    margin-left: 5vw;
 }
 #Go{
     background-color: blanchedalmond;
