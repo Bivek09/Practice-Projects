@@ -1,0 +1,61 @@
+body{
+     
+      background-image: url("../Images/parchment.jpg");
+       background-size: cover;
+   background-repeat:repeat;
+background-attachment: fixed;
+   background-position: center;
+}
+
+h1{
+    font-style:italic;
+    
+  font-family: "Macondo Swash Caps", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+#forgot-password{
+    color:rgb(237, 68, 68);
+font-family: "Macondo Swash Caps", cursive;
+    text-decoration: none;
+}
+label{
+    font-family: "Macondo Swash Caps", cursive;
+    padding: 5px;
+    color:chocolate;
+}
+#submit{
+    background-color: blanchedalmond;
+    color: black;
+    font-family: "Macondo Swash Caps", cursive;
+}
+#username{
+    font-family: "Macondo Swash Caps", cursive;
+    color:chocolate;
+    background-color: blanchedalmond;
+}
+#password{
+    font-family: "Macondo Swash Caps", cursive;
+    color:chocolate;
+    background-color: blanchedalmond;
+}
+.login-container{
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+   
+}
+#email{
+     font-family: "Macondo Swash Caps", cursive;
+    color:chocolate;
+    width:150px;
+}
+
