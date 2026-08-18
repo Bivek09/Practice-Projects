@@ -6,41 +6,41 @@
     
 
 .navbar{
-    height: 3vw;
+    height: 30px;
     width: 100vw;
     position: fixed;
     top: 0;
     background-color: rgb(90, 3, 3);
-    border-radius: 10px;
    padding-top: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content:space-between
    
-  
 }
 a{
     
-    margin-right:10vw;
+    margin-right:10px;
      text-decoration: none;
-   
-
    
 }
 #logo{
-    padding-left: 50px;
-    margin-top:30px;
+  
     color:rgb(198, 13, 13) ;
     font-size: large;
-    font-family: fantasy;
-    
-   
-    
+    font-family: "Macondo Swash Caps", fantasy;
+     margin-left: 10px;  
 }
 #searchbar{
-    margin-left: 5vw;
+  height: 20px; 
+  width: 200px; 
+ 
 }
 #Go{
     background-color: blanchedalmond;
     color: black;
-    
+  height: 25px;
+  width: 30px;
+  margin-right: 10px;
 }
 body{
     background-color: rgb(250, 210, 162);
@@ -50,14 +50,14 @@ a:hover{
 }
 .content{
     position: relative;
-    top:45px;
+    top:40px;
 }
 #screen{
     background-image: url(Images/library2.avif);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    position: relative;
+    position:relative;
     height: 40vh;
     width: 100vw;
 }
