@@ -11,16 +11,20 @@
     position: fixed;
     top: 0;
     background-color: rgb(90, 3, 3);
-   padding-top: 10px;
-  z-index: 1;
-  display: flex;
-  justify-content:space-between
+    padding-top: 10px;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+    flex-shrink:1;
    
 }
 a{
     
     margin-right:10px;
      text-decoration: none;
+     height: 20px;
+     
    
 }
 #logo{
@@ -28,11 +32,13 @@ a{
     color:rgb(198, 13, 13) ;
     font-size: large;
     font-family: "Macondo Swash Caps", fantasy;
-     margin-left: 10px;  
+    margin-left: 20px;
 }
 #searchbar{
   height: 20px; 
-  width: 200px; 
+  width: 300px;
+  margin-left: auto;
+  color: black;
  
 }
 #Go{
@@ -40,26 +46,66 @@ a{
     color: black;
   height: 25px;
   width: 30px;
-  margin-right: 10px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
 }
 body{
     background-color: rgb(250, 210, 162);
 }
 a:hover{
-    background-color: gray;
+    background-color: rgb(241, 116, 33);
 }
-.content{
+.wrapper{
+   margin-left:10px;
+    box-sizing: border-box;
     position: relative;
-    top:40px;
+    top:42px;
+    height:650px;
+    width: 500px;
+    display: flex;
+    overflow-x: scroll;
+    gap:20px;
+    scroll-snap-type: x mandatory;
+    scrollbar-width:none;
+
 }
-#screen{
-    background-image: url(Images/library2.avif);
+.cards{
+    width: 500px;
+   
+    padding: 20px;
+    flex-shrink: 0;
+    scroll-snap-align: center;
+
+   
+}
+#card1{
+    background-color: rgb(255, 172, 7);
+    background-image: url(Images/castlewindow.jpg);
     background-size: cover;
-    background-attachment: fixed;
+   background-position: center;
+   
+    
+
+}
+#card2{
+    background-color: rgb(255, 172, 7);
+    background-image: url(Images/medival_sword.jpg);
+    background-size: cover;
     background-position: center;
-    position:relative;
-    height: 40vh;
-    width: 100vw;
+ 
+}
+#card3{
+    background-color:rgb(255, 172, 7);
+    background-image: url(Images/medival_armor.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#card4{
+    background-color: rgb(255, 172, 7);
+    background-image: url(Images/fantasy_forest.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .text{
