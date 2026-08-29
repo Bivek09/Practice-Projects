@@ -4,6 +4,9 @@
   color: white;
   scrollbar-width: none;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: rgb(250, 210, 162);
 }
@@ -126,12 +129,12 @@ a:hover {
   width: 200px;
 }
 .popular:hover {
-  background-color: rgba(239, 95, 67, 0.701);
+  background-color: bisque;
 }
 .popular {
   display: flex;
   flex-direction: column;
-  background-color: bisque;
+  background-color: rgb(250, 210, 162);
   padding-bottom: 10px;
 }
 .popular_books {
