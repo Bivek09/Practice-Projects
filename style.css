@@ -1,137 +1,158 @@
-*{
-    padding: 0px;
-    margin: 0px;
-    color: white;
+* {
+  padding: 0px;
+  margin: 0px;
+  color: white;
+  scrollbar-width: none;
 }
-    
-
-.navbar{
-    height: 30px;
-    width: 100vw;
-    position: fixed;
-    top: 0;
-    background-color: rgb(90, 3, 3);
-    padding-top: 10px;
-    z-index: 1;
-    display: flex;
-    justify-content: flex-start;
-    gap: 5px;
-    flex-shrink:1;
-   
+body {
+  background-color: rgb(250, 210, 162);
 }
-a{
-    
-    margin-right:10px;
-     text-decoration: none;
-     height: 20px;
-     
-   
+h1 {
+  font-style: italic;
+  color: rgb(198, 13, 13);
+  font-family: "Macondo Swash Caps", fantasy;
 }
-#logo{
-  
-    color:rgb(198, 13, 13) ;
-    font-size: large;
-    font-family: "Macondo Swash Caps", fantasy;
-    margin-left: 20px;
+.navbar {
+  height: 30px;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  background-color: rgb(90, 3, 3);
+  padding-top: 10px;
+  z-index: 1;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  flex-shrink: 1;
 }
-#searchbar{
-  height: 20px; 
+a {
+  margin-right: 10px;
+  text-decoration: none;
+  height: 20px;
+}
+#logo {
+  color: rgb(198, 13, 13);
+  font-size: large;
+  font-family: "Macondo Swash Caps", fantasy;
+  margin-left: 20px;
+}
+#searchbar {
+  height: 20px;
   width: 300px;
   margin-left: auto;
   color: black;
- 
 }
-#Go{
-    background-color: blanchedalmond;
-    color: black;
+#Go {
+  background-color: blanchedalmond;
+  color: black;
   height: 25px;
   width: 30px;
   margin-right: 20px;
   flex-shrink: 0;
-  
 }
-body{
-    background-color: rgb(250, 210, 162);
+a:hover {
+  background-color: rgb(241, 116, 33);
 }
-a:hover{
-    background-color: rgb(241, 116, 33);
+.top_portion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  top: 42px;
 }
-.wrapper{
-   margin-left:10px;
-    box-sizing: border-box;
-    position: relative;
-    top:42px;
-    height:650px;
-    width: 500px;
-    display: flex;
-    overflow-x: scroll;
-    gap:20px;
-    scroll-snap-type: x mandatory;
-    scrollbar-width:none;
-
+.wrapper {
+  margin-left: 10px;
+  box-sizing: border-box;
+  height: 650px;
+  width: 500px;
+  display: flex;
+  overflow-x: scroll;
+  gap: 20px;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  border-radius: 1%;
 }
-.cards{
-    width: 500px;
-   
-    padding: 20px;
-    flex-shrink: 0;
-    scroll-snap-align: center;
-
-   
+.cards {
+  width: 500px;
+  padding: 20px;
+  flex-shrink: 0;
+  scroll-snap-align: center;
 }
-#card1{
-    background-color: rgb(255, 172, 7);
-    background-image: url(Images/castlewindow.jpg);
-    background-size: cover;
-   background-position: center;
-   
-    
-
+#card1 {
+  background-color: rgb(255, 172, 7);
+  background-image: url(Images/castlewindow.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#card2{
-    background-color: rgb(255, 172, 7);
-    background-image: url(Images/medival_sword.jpg);
-    background-size: cover;
-    background-position: center;
- 
+#card2 {
+  background-color: rgb(255, 172, 7);
+  background-image: url(Images/medival_sword.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#card3{
-    background-color:rgb(255, 172, 7);
-    background-image: url(Images/medival_armor.jpg);
-    background-size: cover;
-    background-position: center;
+#card3 {
+  background-color: rgb(255, 172, 7);
+  background-image: url(Images/medival_armor.jpg);
+  background-size: cover;
+  background-position: center;
 }
-#card4{
-    background-color: rgb(255, 172, 7);
-    background-image: url(Images/fantasy_forest.jpg);
-    background-size: cover;
-    background-position: center;
+#card4 {
+  background-color: rgb(255, 172, 7);
+  background-image: url(Images/fantasy_forest.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
-.text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    font-family: cursive;
-
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: cursive;
 }
-h1{
-    font-style:italic;
-      color:rgb(255, 172, 7);
-      font-family: "Macondo Swash Caps", fantasy;
+.For_you {
+  width: 60vw;
+  height: 40.625rem;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
-
-footer{
-    background-color: rgb(123, 3, 3);
-    position:fixed;
-    bottom:0;
-    width:100vw;
-    text-align:center;
+.foryou_books {
+  background-color: pink;
+  height: 200px;
+  width: 200px;
 }
-
-    
-    
-
-
+.popular:hover {
+  background-color: rgba(239, 95, 67, 0.701);
+}
+.popular {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  padding-bottom: 10px;
+}
+.popular_books {
+  display: flex;
+  width: 100vw;
+  gap: 20px;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.p_book {
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  background-color: pink;
+  flex-shrink: 0;
+}
+footer {
+  background-color: rgb(123, 3, 3);
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  text-align: center;
+}
