@@ -8,7 +8,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  background-color: rgb(250, 210, 162);
+  background-color: rgb(249, 203, 147);
 }
 h1 {
   font-style: italic;
@@ -54,7 +54,7 @@ a {
   flex-shrink: 0;
 }
 a:hover {
-  background-color: rgb(241, 116, 33);
+  background-color: rgb(66, 1, 1);
 }
 .top_portion {
   display: flex;
@@ -115,6 +115,17 @@ a:hover {
   text-align: center;
   font-family: cursive;
 }
+.books {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.book_images {
+  background-size: cover;
+  height: 85%;
+  width: 85%;
+}
 .For_you {
   width: 60vw;
   height: 40.625rem;
@@ -129,12 +140,12 @@ a:hover {
   width: 200px;
 }
 .popular:hover {
-  background-color: bisque;
+  background-color: rgb(250, 210, 162);
 }
 .popular {
   display: flex;
   flex-direction: column;
-  background-color: rgb(250, 210, 162);
+  background-color: rgb(249, 203, 147);
   padding-bottom: 10px;
 }
 .popular_books {
@@ -146,6 +157,31 @@ a:hover {
   scrollbar-width: none;
 }
 .p_book {
+  height: 300px;
+  width: 300px;
+  margin: 5px;
+  background-color: pink;
+  flex-shrink: 0;
+}
+
+.manga:hover {
+  background-color: rgb(250, 210, 162);
+}
+.manga {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 203, 147);
+  padding-bottom: 10px;
+}
+.manga_books {
+  display: flex;
+  width: 100vw;
+  gap: 20px;
+  justify-content: space-evenly;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+.m_book {
   height: 300px;
   width: 300px;
   margin: 5px;
